@@ -3,7 +3,18 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>TeamDashboard → LegendV</title>
+<header>
+  <img src="legendV.pdeg.png" alt="LegendV Logo" style="height:60px;border-radius:8px;box-shadow:0 0 12px rgba(255,0,255,0.4);">
+  <div style="flex:1">
+    <h1>LegendV Dashboard</h1>
+    <div class="small">Verwaltung: Team-Besprechung • Abmeldung</div>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center">
+    <div id="loginState" class="tag">Nicht eingeloggt</div>
+    <button id="logoutBtn" class="btn ghost hidden">Abmelden</button>
+  </div>
+</header>
+
 <style>
   :root{
     --bg:#0f1724; --card:#0b1220; --muted:#9aa6bd; --accent:#4f97ff; --glass: rgba(255,255,255,0.03);
